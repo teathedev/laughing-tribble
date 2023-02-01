@@ -1,2 +1,2 @@
 # tmp folders for volumes
-./localstack/tmp
+localstack/tmp
