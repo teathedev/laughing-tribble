@@ -1,2 +1,3 @@
 # tmp folders for volumes
 localstack/tmp
+postgresql/tmp
