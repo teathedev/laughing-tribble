@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    restart: always
+    environment:
+      RABBITMQ_DEFAULT_USER: laughing_tribble
+      RABBITMQ_DEFAULT_PASS: PwdSecret123!
+    ports:
+      - 5672:5672
